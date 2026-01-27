@@ -33,7 +33,7 @@ public class BonusServiceTest {
 
         long actual = service.calculate(amount, registered);
 
-        
+
         Assertions.assertEquals(expected, actual);
     }
 }
